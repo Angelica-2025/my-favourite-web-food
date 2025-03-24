@@ -1,9 +1,8 @@
-// Variables
-$primary-color: #ff6347; // Tomate para los acentos de color
-$secondary-color: #f1f1f1; // Gris claro para el fondo
+$primary-color: #ff6347;
+$secondary-color: #f1f1f1;
 $font-stack: 'Arial', sans-serif;
 
-// Estilos globales
+
 body {
     font-family: $font-stack;
     margin: 0;
@@ -40,7 +39,6 @@ footer {
     }
 }
 
-// Imagen
 .imagen {
     text-align: center;
 
@@ -50,7 +48,7 @@ footer {
     }
 }
 
-// Lista de ingredientes
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -74,7 +72,7 @@ ul {
     }
 }
 
-// Preparación de la receta
+
 .step-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
