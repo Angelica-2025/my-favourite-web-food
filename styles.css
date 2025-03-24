@@ -1,0 +1,49 @@
+.body {
+    width: 100px;
+    height: auto;
+    background-color: white;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.recet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 200%;
+    height: 20%
+   
+}
+
+.ingredients-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: space-between;
+    gap: 8px;
+}
+
+.footer-container {
+    display: flex,;
+    align-items: center;
+    gap: 10px;
+}
+
+.RRSS-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

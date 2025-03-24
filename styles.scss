@@ -1,0 +1,95 @@
+// Variables
+$primary-color: #ff6347; // Tomate para los acentos de color
+$secondary-color: #f1f1f1; // Gris claro para el fondo
+$font-stack: 'Arial', sans-serif;
+
+// Estilos globales
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    background-color: $secondary-color;
+}
+
+h1,
+h2 {
+    color: $primary-color;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    .RRSS-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+// Imagen
+.imagen {
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+// Lista de ingredientes
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    .table-ingredients {
+        margin: 20px 0;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+
+            input[type="checkbox"] {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// Preparación de la receta
+.step-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    .step {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        .step-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+}
